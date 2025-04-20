@@ -1,0 +1,28 @@
+li {
+    border: 1px solid #ccc;      /* Adds box border */
+    padding: 10px;               /* Inner spacing */
+    margin: 8px 0;               /* Space between boxes */
+    background-color: #eeea8e;   /* Light background */
+    border-radius: 6px;          /* Rounded corners (optional) */
+    list-style: none;            /* Remove bullet points */
+  }
+  ul {
+    max-width: 400px;
+    margin: auto;
+    padding: 0;
+  }
+  h1 {
+    text-align: center;
+    font: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 248, 167);
+  }
+  body {
+    background-color: #ffe4e1; /* Misty rose */
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #222;
+  }
+   
