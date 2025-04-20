@@ -66,31 +66,46 @@ h1 {
   color: rgb(4, 248, 167);
 }
 body {
-  background-color: #f2f680; /* Misty rose */
+  background-color: #f2f680; 
 }
 h1 {
   font-size: 4rem;
   font-weight: bold;
   color: #161516;
 }
-/* Adjust layout for screens 768px and smaller */
 @media (max-width: 768px) {
-  body {
-    font-size: 16px;
+  .box1 {
+    align-items: flex-start;      /* content starts from top */
+    padding-top: 40px;            /* space from top */
+    height: auto;                 /* allow height to expand */
+    flex-direction: column;      /* if needed */
   }
 
-  .container {
+  .item {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .box2 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 100%;
     padding: 0 10px;
   }
 
-  .nav, .sidebar {
-    display: none;
+  button {
+    font-size: 18px;
+    padding: 15px 25px;
   }
 
-  .main-content {
-    width: 100%;
+  h1 {
+    font-size: 2.5rem;
   }
 }
+
+
+ 
+
 
 
 
